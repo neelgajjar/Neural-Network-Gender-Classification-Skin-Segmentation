@@ -19,13 +19,17 @@ OpenCV is used to implement the haar cascade classifier and Raw pixel data is fe
 ![1_male](https://user-images.githubusercontent.com/8587332/35301447-68028626-0040-11e8-9b4b-233cf5439d68.jpg) 1. Male
 ![2_female](https://user-images.githubusercontent.com/8587332/35301448-6819e082-0040-11e8-94ba-8b0f56da3707.jpg) 1. Female
 
+It’s basically a machine learning algorithm that uses a bunch of images of faces and non-faces to train a classifier that can later be used to detect faces in realtime.
+
+The algorithm implemented in OpenCV can also be used to detect other things, as long as you have the right classifiers. My OpenCV distribution came with classifiers for eyes, upper body, hands, frontal face and profile face. While looking for information about how to train them, I found classifiers for BANANAS, PENS and IPHONES.
+
 # Skin Segmentation -
 
 ### Detects Human Skin From Image
 This is a simple machine learning implementation for image region segmentation. Only by altering training data it can detect any type of region based on pixel value.
 
 ## How it's done?
-Used Naive Bayes here for classification (skin or non-skin pixel). As it is a colour image there are 256*256*256 types of pixels.
+Used Naive Bayes here for classification (skin or non-skin pixel). As it is a colour image there are 256x256x256 types of pixels.
 
 In the training phase, pixel frequencies of being skin or non-skin is calculated. We take every pixel of the image and see if it is a pixel of skin by using the mask. If the pixel is on skin, we increase its skin-frequency. Else we increase the non-skin-frequency. After processing all images, probability of a skin-pixels is calculated from the frequency using Bayes Theorem. We store this data in a file.
 
