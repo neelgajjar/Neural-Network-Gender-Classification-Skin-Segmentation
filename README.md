@@ -19,7 +19,7 @@ OpenCV is used to implement the haar cascade classifier and Raw pixel data is fe
 ![1_male](https://user-images.githubusercontent.com/8587332/35301447-68028626-0040-11e8-9b4b-233cf5439d68.jpg) 1. Male
 ![2_female](https://user-images.githubusercontent.com/8587332/35301448-6819e082-0040-11e8-94ba-8b0f56da3707.jpg) 1. Female
 
-# Skin Detector -
+# Skin Segmentation -
 
 ### Detects Human Skin From Image
 This is a simple machine learning implementation for image region segmentation. Only by altering training data it can detect any type of region based on pixel value.
