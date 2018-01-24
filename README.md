@@ -21,7 +21,7 @@ OpenCV is used to implement the haar cascade classifier and Raw pixel data is fe
 
 It’s basically a machine learning algorithm that uses a bunch of images of faces and non-faces to train a classifier that can later be used to detect faces in realtime.
 
-The algorithm implemented in OpenCV can also be used to detect other things, as long as you have the right classifiers. My OpenCV distribution came with classifiers for eyes, upper body, hands, frontal face and profile face. While looking for information about how to train them, I found classifiers for BANANAS, PENS and IPHONES.
+The algorithm implemented in OpenCV can also be used to detect other things, as long as you have the right classifiers like classifiers for eyes, upper body, hands, frontal face and profile face.
 
 # Skin Segmentation -
 
